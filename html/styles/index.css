@@ -1,0 +1,31 @@
+/* 전체 적용 */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 레이아웃 */
+nav {
+  background-color:#F5EFE6;
+  padding: 8px; /* 내용물이 안쪽으로 들어가는 태그 */
+  display: flex;
+  justify-content:space-between; /* 내용물을 균등하게 뿌리는 태그 */
+  color: white;
+  height: 40px;
+}
+
+ nav > ul {display: flex;
+            list-style: none  
+}
+header {
+  background-color: #E8DFCA;
+}
+main {
+  background-color: #AEBDCA;
+}
+
+footer {
+  background-color: #7895B2;
+  justify-content: space-between;
+  color: white;
+}
