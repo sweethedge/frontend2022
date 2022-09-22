@@ -7,7 +7,7 @@
 /* 레이아웃 */
 nav {
   background-color:#F5EFE6;
-  padding: 8px; /* 내용물이 안쪽으로 들어가는 태그 */
+  padding: 5px; /* 내용물이 안쪽으로 들어가는 태그 */
   display: flex;
   justify-content:space-between; /* 내용물을 균등하게 뿌리는 태그 */
   color: white;
@@ -25,23 +25,20 @@ nav a {
 }
 header {
   background-color: #E8DFCA;
+  
 }
-header.left {
-  margin: 8px;
-}
+
 header > section {
-  justify-content: flex;
+  
   display: flex;
 }
 
-.header.left {
-  margin: 20px;
+.header_left {
+  /*.header.left라고 돼 있어서 적용이 안됏네요 ㅋㅋ*/
   width: 30%;
 }
-.header.right {
-  margin: 20px;
-  width: 70%;
-  text-align: center;
+.header_right {
+    width: 70%;
 }
 
 main {
