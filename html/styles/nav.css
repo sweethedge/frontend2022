@@ -1,0 +1,14 @@
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: aquamarine;
+}
+
+nav li {
+  margin-left: 5px;
+  margin-right: 5px;
+}

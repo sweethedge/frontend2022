@@ -13,19 +13,65 @@ nav {
   color: white;
   height: 40px;
 }
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
 
  nav > ul {display: flex;
-            list-style: none  
+            list-style: none; 
+            margin: 2000px; 
 }
 header {
   background-color: #E8DFCA;
 }
+header.left {
+  margin: 8px;
+}
+header > section {
+  justify-content: flex;
+  display: flex;
+}
+
+.header.left {
+  margin: 20px;
+  width: 30%;
+}
+.header.right {
+  margin: 20px;
+  width: 70%;
+  text-align: center;
+}
+
 main {
   background-color: #AEBDCA;
+  display: flex;
+
+}
+main>section {
+  width: 25%;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  border-radius: 25%;
 }
 
 footer {
   background-color: #7895B2;
   justify-content: space-between;
   color: white;
+  display: flex;
+
 }
+footer > h2 {
+  margin: 25px
+ 
+}
+
+footer > li {
+  list-style: none;
+}
+
