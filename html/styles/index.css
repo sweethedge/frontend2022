@@ -2,7 +2,7 @@
 * {
   margin: 0px;
   padding: 0px;
-}
+  }
 
 /* 레이아웃 */
 nav {
@@ -14,14 +14,15 @@ nav {
   height: 40px;
 }
 nav a {
-  text-decoration: none;
-  color: white;
+  color:white;
   padding: 10px;
+  top: 0;
+  position: sticky;
 }
 
  nav > ul {display: flex;
             list-style: none; 
-            margin: 2000px; 
+            margin: 5px; 
 }
 header {
   background-color: #E8DFCA;
@@ -29,31 +30,28 @@ header {
 }
 
 header > section {
-  
   display: flex;
 }
 
 .header_left {
   /*.header.left라고 돼 있어서 적용이 안됏네요 ㅋㅋ*/
-  width: 30%;
-}
-.header_right {
-    width: 70%;
+  text-align: center;
 }
 
 main {
   background-color: #AEBDCA;
-  display: flex;
+  display:flex;
 
 }
 main>section {
-  width: 25%;
-  margin: 20px;
+  width: 80%;
+  margin: 5px;
   text-align: center;
+  flex-wrap: nowrap;
 }
 
 img {
-  border-radius: 25%;
+  border-radius: 25%; /* 그림의 모서리를 조절하는 태그*/
 }
 
 footer {
@@ -61,14 +59,32 @@ footer {
   justify-content: space-between;
   color: white;
   display: flex;
-
+  bottom: 0;
+  position: sticky;
 }
 footer > h2 {
-  margin: 25px
- 
+  margin: 25px;
+
 }
 
-footer > li {
+footer li {
   list-style: none;
 }
+/* 자손을 스타일 할 때는 위와 같이 공백으로 */
 
+@media only screen and (max-width: 600px) {
+  header > section {
+    flex-direction:column;
+    align-items: center;
+  }
+    .header_left, .header_right {
+      width: 80%;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer > ul {
+    display: none;
+  }
+}
