@@ -1,3 +1,5 @@
+"w3schools에서 열심히 연습해라"
+
 # frontend2022
 # html
 ## 0920
@@ -60,3 +62,11 @@ Backend - RestAPI.
 /* 자손을 스타일할 때는 위와 같이 공백으로 */
 
 웹 서비스하기.
+
+# 폼 연습.
+ID, 패스워드 등을 넣을 수 있는 폼 태그를 알아본다.
+오늘은 그냥 가볍게.
+<!--form은 action 뒤에 있는 페이지로 넘겨주는 기능을 한다.-->
+주소에 사용자가 입력한 게 다 노출되서 날아가는 메서드가 get 방식.
+노출이 안되게 하려면 form method를 post로.
+영진위 api https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do?serviceId=searchDailyBoxOffice
